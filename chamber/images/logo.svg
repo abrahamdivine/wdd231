@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420 110">
+
+    <!-- Connection symbol -->
+    <g stroke="#FFFFFF" stroke-width="6" fill="none"
+       stroke-linecap="round">
+        <path d="M40 25 L70 55 L40 85 L10 55 Z"/>
+        <path d="M40 25 L40 85"/>
+        <path d="M10 55 L70 55"/>
+    </g>
+
+    <!-- Connection points -->
+    <circle cx="40" cy="25" r="8" fill="#4CAF50"/>
+    <circle cx="10" cy="55" r="8" fill="#FFFFFF"/>
+    <circle cx="70" cy="55" r="8" fill="#FFFFFF"/>
+    <circle cx="40" cy="85" r="8" fill="#4CAF50"/>
+</svg>

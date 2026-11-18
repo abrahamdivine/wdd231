@@ -1,0 +1,128 @@
+/* COLOR VARIABLES */
+
+:root {
+    --primary-color: #14532D;
+    --secondary-color: #E8F5E9;
+    --text-color: #171717;
+    --background-color: #FFFFFF;
+    --accent-color: #4CAF50;
+}
+
+/* GENERAL STYLING */
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: var(--background-color);
+    color: var(--text-color);
+    line-height: 1.6;
+}
+
+h1,
+h2,
+h3 {
+    font-family: Georgia, serif;
+}
+
+/* HEADER */
+
+header {
+    background-color: var(--primary-color);
+    color: white;
+    text-align: center;
+    padding: 30px 15px;
+}
+
+.logo {
+    width: 230px;
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto 15px;
+}
+
+header h1 {
+    font-size: 2.5rem;
+    margin: 10px 0;
+}
+
+.tagline {
+    font-size: 1.2rem;
+}
+
+/* MAIN CONTENT */
+
+main {
+    max-width: 1000px;
+    margin: auto;
+    padding: 20px;
+}
+
+section {
+    background-color: var(--secondary-color);
+    padding: 20px;
+    margin: 25px 0;
+    border-radius: 8px;
+}
+
+h2 {
+    color: var(--primary-color);
+    border-bottom: 2px solid var(--accent-color);
+    padding-bottom: 8px;
+}
+
+/* IMAGES */
+
+.hero-image {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+/* WIREFRAMES */
+
+.wireframe-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+}
+
+.wireframe {
+    background-color: white;
+    border: 2px dashed var(--primary-color);
+    padding: 15px;
+    text-align: center;
+}
+
+.wireframe div {
+    border: 1px solid var(--accent-color);
+    padding: 15px;
+    margin: 10px 0;
+}
+
+/* FOOTER */
+
+footer {
+    background-color: var(--primary-color);
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
+
+/* LARGE SCREENS */
+
+@media screen and (min-width: 700px) {
+
+    main {
+        padding: 30px;
+    }
+
+    .wireframe-container {
+        grid-template-columns: 1fr 1fr;
+    }
+
+}
