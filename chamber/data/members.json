@@ -1,0 +1,72 @@
+[
+  {
+    "name": "Dee's Urban Closet",
+    "address": "12 Allen Avenue, Ikeja, Lagos",
+    "phone": "+234 801 234 5678",
+    "website": "https://example.com",
+    "image": "images/fashion.jpg",
+    "membership": 3,
+    "category": "Fashion",
+    "description": "A fashion store offering stylish and affordable clothing."
+  },
+  {
+    "name": "Gemstone Accessories",
+    "address": "24 Opebi Road, Ikeja, Lagos",
+    "phone": "+234 802 345 6789",
+    "website": "https://example.com",
+    "image": "images/jewelry.png",
+    "membership": 2,
+    "category": "Jewelry",
+    "description": "Beautiful jewelry and accessories for everyday style."
+  },
+  {
+    "name": "Urban Sole Hub",
+    "address": "8 Awolowo Way, Ikeja, Lagos",
+    "phone": "+234 803 456 7890",
+    "website": "https://example.com",
+    "image": "images/shoes.jpg",
+    "membership": 1,
+    "category": "Shoes",
+    "description": "Footwear for casual, formal, and everyday occasions."
+  },
+  {
+    "name": "CarryAll Bags",
+    "address": "15 Computer Village, Ikeja, Lagos",
+    "phone": "+234 804 567 8901",
+    "website": "https://example.com",
+    "image": "images/handbag.jpg",
+    "membership": 2,
+    "category": "Bags",
+    "description": "A collection of practical and fashionable bags."
+  },
+  {
+    "name": "Green Basket Foods",
+    "address": "5 Obafemi Awolowo Way, Ikeja, Lagos",
+    "phone": "+234 805 678 9012",
+    "website": "https://example.com",
+    "image": "images/food.jpg",
+    "membership": 1,
+    "category": "Food",
+    "description": "Fresh groceries and everyday food essentials."
+  },
+  {
+    "name": "Ikeja Digital Works",
+    "address": "31 Allen Avenue, Ikeja, Lagos",
+    "phone": "+234 806 789 0123",
+    "website": "https://example.com",
+    "image": "images/digital.png",
+    "membership": 3,
+    "category": "Technology",
+    "description": "Digital solutions and technology services for businesses."
+  },
+  {
+    "name": "Crownline Interiors",
+    "address": "19 Opebi Road, Ikeja, Lagos",
+    "phone": "+234 807 890 1234",
+    "website": "https://example.com",
+    "image": "images/decor.jpg",
+    "membership": 2,
+    "category": "Interior Design",
+    "description": "Creative interior design and decoration services."
+  }
+]

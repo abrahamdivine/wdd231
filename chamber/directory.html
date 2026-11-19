@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<meta name="description" content="Explore businesses in Ikeja, Lagos. Discover local businesses, connect with entrepreneurs, and find opportunities through Lagos Connect.">
+
+<meta name="author" content="Ameh Divine">
+
+<title>Business Directory | Lagos Connect</title>
+
+<!-- Favicon -->
+<link rel="icon" href="images/favicon.svg" type="image/svg+xml">
+
+<!-- Facebook Open Graph Metadata -->
+<meta property="og:title" content="Lagos Connect | Business Directory">
+<meta property="og:description" content="Discover and connect with businesses in Ikeja, Lagos.">
+<meta property="og:image" content="https://abrahamdivine.github.io/wdd231/chamber/images/hero.jpg">
+<meta property="og:url" content="https://abrahamdivine.github.io/wdd231/chamber/directory.html">
+<meta property="og:type" content="website">
+
+<!-- CSS Files -->
+<link rel="stylesheet" href="styles/normalize.css">
+<link rel="stylesheet" href="styles/small.css">
+<link rel="stylesheet" href="styles/larger.css">
+
+<!-- JavaScript -->
+<script src="scripts/directory.js" defer></script>
+
+</head>
+
+<body>
+
+<header>
+
+    <div class="header-container">
+
+        <a href="index.html" class="brand">
+            <img src="images/logo.svg" alt="Lagos Connect logo">
+            <span>Lagos Connect</span>
+        </a>
+
+        <button id="menu-button" aria-label="Open navigation menu" aria-expanded="false">
+            ☰
+        </button>
+
+        <nav id="navigation">
+            <a href="index.html">Home</a>
+            <a href="discover.html">Discover</a>
+            <a href="directory.html" class="active" aria-current="page">Directory</a>
+            <a href="join.html">Join</a>
+        </nav>
+
+    </div>
+
+</header>
+
+<main>
+
+    <div class="page-heading">
+        <h1>Business Directory</h1>
+        <p>
+            Discover local businesses, connect with entrepreneurs,
+            and explore opportunities in Ikeja, Lagos.
+        </p>
+    </div>
+
+    <section class="directory-section">
+
+        <div class="directory-heading">
+
+            <h2>Our Business Members</h2>
+
+            <div class="view-buttons">
+
+                <button id="grid-view" class="view-button active" aria-pressed="true">
+                    Grid View
+                </button>
+
+                <button id="list-view" class="view-button" aria-pressed="false">
+                    List View
+                </button>
+
+            </div>
+
+        </div>
+
+        <!-- Business information will be loaded here using JavaScript -->
+
+        <div id="members-container" class="members-grid">
+            <p>Loading business members...</p>
+        </div>
+
+    </section>
+
+</main>
+
+<footer>
+
+    <div class="footer-container">
+
+        <div class="footer-contact">
+            <h2>Lagos Connect</h2>
+            <p>Ikeja, Lagos, Nigeria</p>
+            <p>Email: info@lagosconnect.example</p>
+            <p>Phone: 08065543270</p>
+        </div>
+
+        <div class="footer-development">
+            <p>Ameh Divine</p>
+            <p>WDD 231 - Web Frontend Development</p>
+            <p>© <span id="current-year"></span> Lagos Connect</p>
+            <p>Last Modified: <span id="last-modified"></span></p>
+        </div>
+ 
+    </div>
+
+</footer>
+
+</body>
+</html>
